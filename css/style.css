@@ -5,7 +5,7 @@ md-card img {
 }
 
 button .material-icons {
-  margin-top: 7px;
+  margin-top: 3px;
 }
 
 .filters md-input-container {
@@ -23,6 +23,34 @@ button .material-icons {
 
 .classified.ng-leave {
   animation: 0.4s fade_classified;
+}
+
+.classified-admin.ng-scope h3 {
+  text-align: center;
+}
+
+md-card-content .layout-row {
+  display: table;
+  margin: 0 auto;
+}
+
+button.md-button.md-ink-ripple {
+    background: #009688;
+    color: #fff;
+}
+
+md-card-content button.md-button.md-ink-ripple:hover {
+    color: #333;
+}
+
+.classified-info h3.ng-binding {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.md-title {
+    text-align: center;
 }
 
 @keyframes fade_classified {
