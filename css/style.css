@@ -53,6 +53,14 @@ md-card-content button.md-button.md-ink-ripple:hover {
     text-align: center;
 }
 
+.md-dialog-container md-dialog .md-actions button.md-primary.md-button.ng-scope.md-default-theme.md-ink-ripple {
+    color: #fff;
+}
+
+.md-dialog-container md-dialog .md-actions button.md-primary.md-button.ng-scope.md-default-theme.md-ink-ripple:hover {
+    color: #333;
+}
+
 @keyframes fade_classified {
   from { opacity: 1; }
   to { opacity: 0; }
